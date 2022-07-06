@@ -41,3 +41,73 @@ p{
     border: none;
     border-radius: 10px;
 }
+.donate{
+    padding: 80px 80px;
+}
+.donate-head{
+    text-align: center;
+}
+.donate-head h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.donate-head p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #707070;
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+.money{
+    padding-top: 80px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.amount{
+    text-align: center;
+    padding: 60px;
+    background: #FAFAFA;
+    columns: #707070;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.two{
+    background: #FFEEEE;
+    columns: #FF5959;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+.other{
+    text-align: center;
+    padding-top: 100px;
+}
+.other input{
+    border: none;
+    border-bottom: 1px solid #B3B3B3;
+    width: 1000px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+input[type=number]:focus{
+    outline: none;
+}
+::placeholder{
+    text-align: center;
+    font-size: 20px;
+}
+.other button{
+    margin-top: 40px;
+    padding: 20px 30px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+    background: #FF5958;
+    color: #ffff;
+    border: none;
+    border-radius: 10px;
+}
