@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Roboto Mono;
+}
+p{
+    font-family: Raleway;
+}
+.banner{
+    height: 900px;
+    background-image: url("images/color.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-text{
+  text-align: center;  
+}
+.banner-text h1{
+    color: #ffff;
+    font-size: 60px;
+    text-transform: capitalize;
+    padding-top: 200px;
+}
+.banner-text p{
+    color: #ffff;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.banner-text button{
+    margin-top: 40px;
+    padding: 20px 30px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+    background: #FF5958;
+    color: #ffff;
+    border: none;
+    border-radius: 10px;
+}
