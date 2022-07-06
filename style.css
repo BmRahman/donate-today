@@ -142,3 +142,48 @@ input[type=number]:focus{
 .third{
     background: #FFF4D6;
 }
+.international{
+    padding: 80px 80px;
+}
+.int-head h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.thumb{
+    display: flex;
+    margin-top: 80px;
+    width: 100%;
+    justify-content: center;
+}
+.in-thumb{
+    width: 25%;
+    background-image: url("images/image.png");
+    margin-left: 20px;
+    height: 300px;
+}
+.in-thumb h4{
+    margin-top: 227px;
+    margin-left: 17px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    color: #B7BABE;
+    text-transform: uppercase;
+}
+.in-thumb p{
+    margin-left: 17px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffff;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.one{
+    background-image: url("images/image\ \(1\).png");
+}
+.three{
+    background-image: url("images/image\ \(2\).png"); 
+}
+.four{
+    background-image: url("images/image\ \(3\).png");
+}
