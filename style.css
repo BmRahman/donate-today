@@ -224,9 +224,26 @@ input[type="text"]:focus{
     padding: 11px 40px;
 }
 .mail button{
-    padding: 10px 15px;
+    padding: 12px 15px;
     margin-left: -4px;
     border: none;
     background-color: #FF5959;
     color: #ffff;
+}
+.footer{
+    padding: 40px 0px;
+    background-color: black;
+    text-align: center;
+}
+.foot-text h3{
+    color: #FF5958;
+    text-transform: capitalize;
+}
+.foot-text .cap{
+    color: cadetblue;
+    text-transform: uppercase;
+}
+.foot-text p{
+    color: #FAFAFA;
+    margin-top: 10px;
 }
