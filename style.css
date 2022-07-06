@@ -111,3 +111,34 @@ input[type=number]:focus{
     border: none;
     border-radius: 10px;
 }
+.plan{
+    padding: 80px 80px;
+}
+.card{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 80px;
+}
+.inner-card{
+    padding: 60px;
+    margin-left: 20px;
+}
+.inner-card h3{
+    margin: 20px 0px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.inner-card p{
+    font-size: 16px;
+    line-height: 26px;
+}
+.first{
+    background: #EDF5F6;
+}
+.second{
+    background: #FFEEEE;
+}
+.third{
+    background: #FFF4D6;
+}
